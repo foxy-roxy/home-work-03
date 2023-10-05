@@ -4,9 +4,9 @@
     background-color: #FFFFFF;
     
 }
-.header{
+header{
     margin: 0 auto;
-    border-bottom: 1px solid #e7e9fe;
+    border-bottom: 1px solid #e7e9fc;
 }
 .navigation{
     display: flex;
@@ -19,6 +19,8 @@
  align-items: center;
  justify-content: space-between;
  gap: 332px;
+ width: 1158px;
+ padding: 0 15px 0 15px;
 }
 .header-logo{
     display: flex;
@@ -49,6 +51,9 @@ font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color:#2e2f42;
+padding: 24px 0;
+
+
 
 }
 .header-link{
@@ -68,7 +73,8 @@ font-style: normal;
 font-size: 16px;
 }
 .address-list{
-
+    display: flex; 
+    gap: 40px;
 }
 .address-link {
     font-size: 16px;
@@ -88,6 +94,7 @@ font-size: 16px;
 }
 .hero{
 background-color: #2e2f42;
+padding: 188px 0;
 
 }
 .container-hero{
@@ -99,6 +106,7 @@ background-color: #2e2f42;
     text-align: center;
     letter-spacing: 0.02em;
      color: #ffffff;
+     max-width: 496px;
 
 }
 .button {
@@ -110,6 +118,12 @@ background-color: #2e2f42;
     letter-spacing: 0.04em ;
      color: #ffffff;
     cursor: pointer;
+    display: block;
+    min-width: 169px ;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    
 }
 
 button:hover{
@@ -118,15 +132,27 @@ button:hover{
 button:focus{
     background-color: #404bbf ;
 }
-.container-list{
+.container{
 
+}
+.section{
+    padding: 120px 0 ;
+
+}
+h2{
+visually-hidden; 
+}
+.section-list{
+    display: flex;
+    gap: 24px; 
 }
 .section-title{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color:#2e2f42
+    color:#2e2f42;
+    margin-bottom: 8px;
 }
 .section-text{
     font-size: 16px ;
@@ -139,7 +165,7 @@ button:focus{
     background-color: #F4F4FD;
 
 }
-.container-team{
+.container{
 
 }
 .team-title{
@@ -149,12 +175,17 @@ button:focus{
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color:#2e2f42;
+    margin-bottom: 72px; 
 }
 .team-list{
     background-color: #FFFFFF;
+    display: flex;
+    gap: 24px;
 }
 .team-list-item{
     background-color: #FFFFFF;
+    width: calc((100% - 72px) / 4);   
+    border-radius: 0px 0px 4px 4px; 
 }
 .title-team{
     font-weight: 500;
@@ -163,12 +194,21 @@ button:focus{
     letter-spacing: 0.02em;
     color:#2e2f42;
 }
+.jobber{
+    padding: 32px 0;
+
+}
+h3{
+    text-align: center;
+    margin-bottom: 8px ;
+}
 .team-text{
     line-height: 1.5 ;
     letter-spacing: 0.02em;
     color:#434455;
+    text-align: center;
 }
-.container-project{
+.container{
 
 }
 .project-title{
@@ -177,9 +217,21 @@ button:focus{
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color:#2e2f42;
+    margin-bottom: 72px;
 }
 .project-list{
     background-color: #FFFFFF;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px; 
+    row-gap: 48px;
+   
+}
+.item-list{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
 }
 .item-title{
     font-weight: 500 ;
@@ -187,6 +239,7 @@ button:focus{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color :#2e2f42;
+    margin-bottom: 72px;
 
 }
 .item-text{
@@ -211,7 +264,8 @@ color :#2e2f42;
     color:#2e2f42;
 }
 .footer{
-    background-color:#2e2f42 
+    background-color:#2e2f42 ;
+    padding: 100px 0;
 }
 .container-footer{
 
@@ -224,6 +278,8 @@ color :#2e2f42;
     letter-spacing: 0.03em;
     text-transform: uppercase ;
     color:#4d5ae5;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 .hover-footer{
     color: #f4f4fd ;

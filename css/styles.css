@@ -15,7 +15,12 @@
 header{
    
     border-bottom: 1px solid #e7e9fc;
-    display: flex;
+    
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 .navigation{
     display: flex;
@@ -29,7 +34,7 @@ header{
  justify-content: space-between;
  gap: 332px;
  padding: 0 15px 0 15px;
- 
+
 }
 .header-logo{
     display: flex;
@@ -81,6 +86,7 @@ color:#404bbf;
 .address{
 font-style: normal;
 font-size: 16px;
+margin-left: auto;
  
 }
 .address-post{
@@ -92,6 +98,8 @@ gap: 40px;
     gap: 40px;
 }
 .address-link {
+    padding: 24px 0;
+    display: block;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -115,6 +123,9 @@ padding: 188px 0;
 .container-hero{
 
 }
+p,h1,h2,h3{
+    margin: 0;
+}
 .hero-title{
     font-size: 56px;
     line-height: 1.07;
@@ -122,6 +133,8 @@ padding: 188px 0;
     letter-spacing: 0.02em;
      color: #ffffff;
      max-width: 496px;
+     margin: 0,auto;
+     margin-bottom: 48px;
 
 }
 .button {
@@ -138,6 +151,7 @@ padding: 188px 0;
     height: 56px;
     border: none;
     border-radius: 4px;
+    margin: 0,auto;
     
 }
 
@@ -154,6 +168,18 @@ button:focus{
     padding: 120px 0 ;
 
 }
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
 
 .section-list{
     display: flex;
@@ -161,7 +187,7 @@ button:focus{
    
 }
 .section-list-item{
-    flex-basis: calc((100% - 72px) / 4))  
+    flex-basis: calc((100% - 72px) / 4) ; 
 }
 .section-title{
     font-weight: 500;
@@ -195,7 +221,7 @@ button:focus{
     margin-bottom: 72px; 
 }
 .team-list{
-    background-color: #FFFFFF;
+    
     display: flex;
     gap: 24px;
     
@@ -217,14 +243,14 @@ button:focus{
 
 }
 h3{
-    text-align: center;
+    text-align: left;
     margin-bottom: 8px ;
 }
 .team-text{
     line-height: 1.5 ;
     letter-spacing: 0.02em;
     color:#434455;
-    text-align: center;
+    text-align: left;
 }
 .container{
 
@@ -240,6 +266,7 @@ h3{
     text-transform: capitalize;
     color:#2e2f42;
     margin-bottom: 72px;
+    text-align: center;
 }
 .project-list{
     background-color: #FFFFFF;
@@ -247,7 +274,7 @@ h3{
     flex-wrap: wrap;
     column-gap: 24px; 
     row-gap: 48px;
-    padding-top: 120px; 
+   
     
    
 }
@@ -278,11 +305,11 @@ h3{
 .project-title{
     font-size: 36px;
     line-height: 1.11;
-    text-align: center;
+    text-align: left;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 color :#2e2f42;
-margin-bottom: 8px;
+margin-bottom: 72px;
 }
 .item-title{
     font-weight: 500;
@@ -297,6 +324,9 @@ margin-bottom: 8px;
 }
 .container-footer{
 
+}
+p{
+    max-width: 264px;
 }
 .footer-logo{
     font-family: "Raleway",sans-serif;

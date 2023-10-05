@@ -140,7 +140,7 @@ button:focus{
 
 }
 h2{
-visually-hidden; 
+    .visually-hidden; 
 }
 .section-list{
     display: flex;
@@ -225,13 +225,15 @@ h3{
     flex-wrap: wrap;
     column-gap: 24px; 
     row-gap: 48px;
+    padding-top: 120px; 
+    
    
 }
 .item-list{
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px;
+    
 }
 .item-title{
     font-weight: 500 ;

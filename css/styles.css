@@ -29,6 +29,7 @@ header{
  justify-content: space-between;
  gap: 332px;
  padding: 0 15px 0 15px;
+ display: flex;
 }
 .header-logo{
     display: flex;
@@ -80,6 +81,8 @@ color:#404bbf;
 .address{
 font-style: normal;
 font-size: 16px;
+display: flex; 
+    gap: 40px;
 }
 .address-list{
     display: flex; 
@@ -148,15 +151,14 @@ button:focus{
     padding: 120px 0 ;
 
 }
-h2{
-    .visually-hidden; 
-}
+
 .section-list{
     display: flex;
     gap: 24px; 
+   calc((100% - 72px) / 4); 
 }
 .section-list-item{
-    calc((100% - 72px) / 4); 
+     
 }
 .section-title{
     font-weight: 500;
@@ -193,11 +195,11 @@ h2{
     background-color: #FFFFFF;
     display: flex;
     gap: 24px;
-    
+    width: calc((100% - 72px) / 4);
 }
 .team-list-item{
     background-color: #FFFFFF;
-       width: calc((100% - 72px) / 4);
+       
     border-radius: 0px 0px 4px 4px; 
 }
 .title-team{
@@ -258,7 +260,7 @@ h3{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color :#2e2f42;
-    margin-bottom: 72px;
+    margin-bottom: 8px;
 
 }
 .item-text{

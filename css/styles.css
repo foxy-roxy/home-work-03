@@ -3,10 +3,19 @@
     color: #434455;
     background-color: #FFFFFF;
     
-}
+   }
+ img{
+    display: block;
+ }  
+ .container{
+    width: 1158px;
+     margin: 0 auto;
+     padding: 0 15px ;
+ }
 header{
-    margin: 0 auto;
+   
     border-bottom: 1px solid #e7e9fc;
+    display: flex;
 }
 .navigation{
     display: flex;
@@ -19,7 +28,6 @@ header{
  align-items: center;
  justify-content: space-between;
  gap: 332px;
- width: 1158px;
  padding: 0 15px 0 15px;
 }
 .header-logo{
@@ -44,7 +52,8 @@ header{
 display: flex;
 align-items: center;
 padding: 24px 0;
-gap: 40px;
+gap: 40px; 
+
 }
 .header-item{
 font-weight: 500;
@@ -146,6 +155,9 @@ h2{
     display: flex;
     gap: 24px; 
 }
+.section-list-item{
+    calc((100% - 72px) / 4); 
+}
 .section-title{
     font-weight: 500;
     font-size: 20px;
@@ -163,7 +175,7 @@ h2{
 .section-team{
     color: #F4F4FD; 
     background-color: #F4F4FD;
-
+    padding: 120px 0 ;
 }
 .container{
 
@@ -181,10 +193,11 @@ h2{
     background-color: #FFFFFF;
     display: flex;
     gap: 24px;
+    
 }
 .team-list-item{
     background-color: #FFFFFF;
-    width: calc((100% - 72px) / 4);   
+       width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px; 
 }
 .title-team{
@@ -211,6 +224,10 @@ h3{
 .container{
 
 }
+.section-project{
+    padding-top: 120px; 
+    padding-bottom: 120px; 
+}
 .project-title{
     font-size: 20px ;
     line-height: 1.2 ;
@@ -226,7 +243,7 @@ h3{
     column-gap: 24px; 
     row-gap: 48px;
     padding-top: 120px; 
-    
+    width: calc((100% - 48px) / 3);
    
 }
 .item-list{
@@ -257,6 +274,7 @@ h3{
 letter-spacing: 0.02em;
 text-transform: capitalize;
 color :#2e2f42;
+margin-bottom: 8px;
 }
 .item-title{
     font-weight: 500;
